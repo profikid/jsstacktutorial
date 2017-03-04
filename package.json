@@ -5,12 +5,15 @@
   "author": "profikid <profikid@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src",
+    "start": "babel-node src/server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
     "prepush": "yarn test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "^7.1.1",
