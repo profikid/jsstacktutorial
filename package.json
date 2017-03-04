@@ -1,0 +1,11 @@
+{
+  "name": "jsfromscratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "profikid <profikid@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
+}
